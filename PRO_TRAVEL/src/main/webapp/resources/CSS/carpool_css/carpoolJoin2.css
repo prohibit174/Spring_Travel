@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* 재정의 */
+body, table, input, textarea, button, select{letter-spacing:0;font-size:14px;font-family:"NanumBarunGothic", "Arial", "돋움";}
+#header{height:188px;background:none;}
+#container{z-index:100;}
+#footer{z-index:99;height:auto;background:#252525;}
+#wrap h2{font-weight:normal;}
+.user_info_edit .login_box div{padding-left:40px;}
+.user_info_edit .login_box .input_id{margin-top:4px;}
+.login_box input[type="password"]{position:relative;top:-7px;}
+.join_table tbody th,
+.button a,
+.button button,
+.button input{font-family:"NanumBarunGothic";}
+.radio_work input{width:73px;}
+.nlogin_content input[type="text"],
+.nlogin_content input[type="password"]{letter-spacing:0;}
+.mwScrap{z-index:100000;}
+.mwScrap .mw_intro{top:239px;}
+.grid strong{line-height:120%;}
+.inline_box:after{content:'';display:block;clear:both;}
+#setAlarm .setWrap .setBox .moreSet li{margin:20px 40px 0 0;}
+#setAlarm .setWrap .setBox .moreSet .section1{width:123px;}
+.nlogin_pass_info{letter-spacing:-1px;}
+.login_box .input_pw{margin-bottom:13px;}
+.vNav li a,
+.vNav li.active li.active a span,
+.vNav li li a span,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.common_color li li.headline,
+.grid strong,
+.join_btn a,
+.join_btn button,
+.common_color li li.paragraph{font-weight:normal;}
+.policy_content_wrap{width:auto;margin:0;border:1px solid #c6c6c6;}
+.policy_content_wrap .policy_content{border:none;}
+.policy_content_wrap .policy_content p.private_list_title{font-weight:normal;color:#666;}
+.policy_content_wrap .policy_content ol{padding-left:32px;}
+.policy_content_wrap .policy_content strong{font-weight:normal;}
+.nlogin_policy_wrap{float:left;width:400px;margin-top:0;}
+.nlogin_policy_wrap.last{margin:0;}
+.nlogin_policy_check{padding:18px 30px;}
+.nlogin_policy_wrap.last .nlogin_policy_check{border-left:none;}
+.nlogin_policy_wrap.last .policy_content_wrap{border-left:none;}
+.policy_content p.private_policy_title{margin-top:15px;}
+
+/* moAppBanner */
+.moAppBanner{position:relative;vertical-align:middle;padding:23px 20px 23px 30px;margin-top:20px;background:#f9f9f9;border:1px solid #e3e3e3;}
+.moAppBanner:after{content:'';display:block;clear:both;}
+.moAppBanner p,
+.moAppBanner a{display:inline-block;line-height:22px;vertical-align:middle;background:url('//img.tourtips.com/images/pc/join/spr_moAppBanner.png') no-repeat;}
+.moAppBanner p{float:left;height:40px;color:#777;font-size:13px;padding:0 0 0 55px;}
+.moAppBanner p em{display:block;font-size:18px;color:#232323;}
+.moAppBanner a{width:112px;height:34px;font:0/0 arial;}
+.moAppBanner .btnGroup{float:right;display:inline-block;width:234px;font:0/0 arial;text-align:right;margin-top:3px;}
+.moAppBanner .ios{margin-right:10px;background-position:0 -70px;}
+.moAppBanner .android{background-position:0 -140px;}
+
+/* MY TICKET(2016.07.29) */
+/* titleDesc */
+.titleDesc{display:block;height:13px;line-height:13px;color:#777;font-size:13px;margin:-11px 0 19px 0;}
+
+/* reservationInfo */
+.reservationInfo{margin:0 0 20px;border:3px solid #c5c5c5;}
+.reservationInfo table{table-layout:fixed;width:100%;}
+.reservationInfo td{text-align:center;color:#777;font-size:15px;padding:24px 0;border-left:1px solid #eee;}
+.reservationInfo td:first-child{border:none;}
+.reservationInfo td em{color:#ff4f02;}
+.reservationInfo td span{font-family:Tahoma, "NanumBarunGothic";}
+.reservationInfo td strong{font:normal 15px/15px "NanumBarunGothicBold";color:#232323;margin-right:28px;}
+
+/* infoTb */
+.infoTb{z-index:10000;position:relative;border:1px solid #c5c5c5;margin:0 0 40px;}
+.infoTb input[type="text"]{display:block;width:100%;height:38px;line-height:38px;text-indent:20px;font-size:14px;color:#232323;margin:0;background:#FFF;border:1px solid #ccc;border-radius:0;-webkit-border-radius:0;}
+.infoTb .warning{display:inline-block;font-size:13px;color:#f37720;margin-top:13px;}
+.infoTb table,
+.infoTb th,
+.infoTb td{border-collapse:collapse;}
+.infoTb table{table-layout:fixed;width:100%;}
+.infoTb th,
+.infoTb td{padding:20px 20px 19px 20px;border:1px solid #eee;border-width:1px 0 0 1px;}
+.infoTb th{border-width:1px 0 0 0;}
+.infoTb thead th{text-align:left;background:#f7f7f9;border:none;}
+.infoTb td.num{font-family:Tahoma, "NanumBarunGothic";}
+.infoTb thead th strong{_float:left;display:inline-block;color:#232323;font:normal 18px/18px "NanumBarunGothicBold";margin-right:17px;}
+.infoTb thead th p{display:inline-block;color:#777;font-size:13px;}
+.infoTb thead th p em{color:#ff4f02;}
+.infoTb tbody th{text-align:left;font-weight:normal;font-size:14px;color:#232323;}
+.infoTb tbody th em{position:relative;top:-2px;color:#ff4f02;}
+.infoTb tbody th.subTitle{font-size:16px;border-bottom:1px solid #999;}
+.infoTb tr.totalPrice th,
+.infoTb tr.totalPrice td{color:#ff4f02;font:normal 19px Tahoma, "NanumBarunGothicBold";}
+.infoTb td.getTicket{padding-top:10px;padding-bottom:10px;}
+.infoTb ul{font-size:13px;color:#232323;line-height:26px;}
+.infoTb ul li:before{content:'\b7\a0';color:#999;padding:0 1px 0 0;}
+.infoTb .cancelDate{color:#999;}
+.infoTb .cancelList,
+.infoTb .cancelList p,
+.infoTb .cancelList span{line-height:150% !important;}
+.infoTb a.btn{position:relative;display:inline-block;width:132px;height:34px;color:#232323;line-height:34px;font-size:14px;text-align:center;margin-left:5px;background:#f4f4f4;border:1px solid #ccc;}
+
+.infoTb.payment th{text-align:left;font:normal 18px/18px "NanumBarunGothicBold";color:#232323;}
+.infoTb.payment tbody th{padding-left:0;}
+.infoTb.payment tbody th a:hover{text-decoration:underline;}
+.infoTb.payment td{color:#777;padding-left:0;border-width:1px 0 0 0;}
+.infoTb.payment td.price{text-align:center;padding:0;border-width:1px 0 0 1px;}
+.infoTb.payment td.thumb{padding-left:20px;}
+.infoTb.payment td.thumb img{display:block;width:186px;border:1px solid #e5e5e5;}
+.infoTb.payment td.reservationNum{padding-left:20px;border-left:1px solid #eee;}
+.infoTb.payment .productPrice{position:relative;font-size:18px;color:#232323;vertical-align:middle;margin-top:30px;}
+.infoTb.payment .productPrice .title{position:relative;display:inline;height:18px;text-align:left;font:normal 18px/18px "NanumBarunGothic";vertical-align:middle;margin-right:5px;}
+.infoTb.payment .productPrice .price{display:inline;vertical-align:baseline;}
+.infoTb.payment .productPrice .price em{position:relative;top:3px;font:bold 32px/32px Tahoma;vertical-align:baseline;}
+
+.infoTb.list th{font-size:14px;text-align:center;color:#232323;font-weight:normal;border-left:1px solid #eee;}
+.infoTb.list th:first-child{border:none;}
+.infoTb.list td{font-size:13px;text-align:center;}
+.infoTb.list td:first-child{border-left:none;}
+.infoTb.list td a{color:#232323;border-bottom:1px solid #232323;}
+.infoTb.list td a.btn{display:block;width:61px;height:21px;color:#666;font-size:12px;text-align:center;line-height:22px;padding:0;margin:8px auto 0 auto;background:#FFF;border:1px solid #ccc;}
+.infoTb.list td.productTd{min-height:70px;text-align:left;}
+.infoTb.list td.productTd .product{position:relative;min-height:70px;padding:0 0 0 120px;}
+.infoTb.list td.productTd .product .thumb{position:absolute;top:0;left:0;width:98px;height:70px;font:0/0 arial;letter-spacing:0;border:1px solid #e5e5e5;overflow:hidden;}
+.infoTb.list td.productTd .product .thumb img{width:100%;}
+.infoTb.list td.productTd .product .title{display:block;color:#232323;font:normal 15px/15px "NanumBarunGothicBold";margin:8px 0 5px 0;}
+.infoTb.list td.productTd .product .title a{border:none;}
+.infoTb.list td.productTd .product .title a:hover{text-decoration:underline;}
+.infoTb.list td.productTd .product ul{line-height:22px;color:#777;}
+.infoTb.list td.productTd .product li:before{display:none;}
+.infoTb.list td.confirmation{color:#ff4f02;padding-left:10px;padding-right:10px;}
+.infoTb.list td.price{color:#232323;}
+.infoTb.list td.ticketStatus{color:#232323;}
+.infoTb.list td.ticketStatus a.status{display:inline-block;height:18px;line-height:18px;padding-right:22px;border:none;background:url('//img.tourtips.com/images/pc/ticket/ico_ticketStatus.gif') right center no-repeat;}
+
+.infoTb.cancelTb{margin:0 0 21px;}
+
+.infoTb.qnaList{margin:0 0 -1px;border:1px solid #e3e3e3;}
+.infoTb.qnaList th{font-size:14px;text-align:center;color:#232323;font-weight:normal;border-left:1px solid #eee;}
+.infoTb.qnaList th:first-child{border:none;}
+.infoTb.qnaList td{font-size:14px;color:#232323;text-align:left;line-height:22px;padding:16px 20px 15px 20px;}
+.infoTb.qnaList td:first-child{border-left:none;}
+.infoTb.qnaList td:first-child a{color:#3a7ea5;}
+.infoTb.qnaList td:first-child a:hover{text-decoration:underline;}
+.infoTb.qnaList td:last-child{text-align:center;font-size:13px;color:#777;}
+.infoTb.qnaList td.date{font-size:13px;color:#777;font-family:Tahoma;text-align:center;padding:0;}
+.infoTb.qnaList td.complete{color:#ff4f02;}
+.infoTb.qnaList td.myQuestion span{cursor:pointer;}
+.infoTb.qnaList td.myQuestion:hover span{text-decoration:underline;}
+.infoTb.qnaList td .line2Question{display:block;height:42px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:22px;}
+.infoTb.qnaList tr.qnaBox{display:none;}
+.infoTb.qnaList tr.qnaBox td{text-align:left;padding:0;}
+.infoTb.qnaList .qnaArea{font-size:14px;color:#232323;}
+.infoTb.qnaList .qnaArea .question{padding:16px 20px 15px 43px;background:url('//img.tourtips.com/images/cm/img_Q.gif') 20px 20px no-repeat;}
+.infoTb.qnaList .qnaArea .answer{padding:16px 20px 15px 43px;background:#f6f6f6 url('//img.tourtips.com/images/cm/img_A.gif') 20px 20px no-repeat;border-top:1px solid #eee;}
+.infoTb.qnaList .qnaArea .answer p{display:block;line-height:20px;margin:0 0 3px;}
+.infoTb.qnaList .qnaArea .answer .icoEditor{display:inline-block;margin-right:6px;}
+.infoTb.qnaList .qnaArea .answer .date{color:#999;font-size:10px;font-family:Tahoma;}
+
+.infoTb.list .statusTable{z-index:1001;display:none;position:absolute;top:0;right:-1px;width:329px;padding:10px;background:#FFF;border:1px solid #898989;overflow:hidden;}
+.infoTb.list .statusTable h3{color:#232323;font-size:12px;letter-spacing:-0.021em;margin:0 0 11px;}
+.infoTb.list .statusTable table{border:1px solid #e3e3e3;}
+.infoTb.list .statusTable th,
+.infoTb.list .statusTable td{font-size:12px;color:#777;letter-spacing:-0.021em;text-align:left;padding:8px 0;border:1px solid #e3e3e3;}
+.infoTb.list .statusTable thead th{color:#666;text-align:center;background:#f7f7f9;}
+.infoTb.list .statusTable tbody th,
+.infoTb.list .statusTable tbody td{padding-left:15px;}
+.infoTb.list .statusTable .closeStatusTable{position:absolute;top:0;right:0;display:block;width:35px;height:35px;font:normal 0/0 arial;letter-spacing:-9999em;background:url('//img.tourtips.com/images/pc/ticket/ico_closeLayer.gif') center center no-repeat;}
+
+/* btnWrap */
+.btnWrap.ticket{text-align:center;}
+.btnWrap.ticket a{width:148px;height:44px;line-height:44px;padding:0;margin-left:7px;}
+.btnWrap.ticket a.white{border-color:#ddd;}
+.btnWrap.ticket a:first-child{margin:0;}
+.btnWrap.ticket.payment a{width:218px;}
+
+/* noData */
+.noData{text-align:center;color:#777;font-size:18px;padding:90px 0 88px 0;margin:-20px 0 40px 0;border:1px solid #e3e3e3;}
+.noData strong{display:block;font-weight:normal;color:#232323;margin:0 0 11px;}
+.noData strong em{color:#ff4f02;}
+.noData.qnaList{margin-top:20px;}
+
+/* agreeBox */
+.agreeBox{margin:30px 0 20px 20px;}
+.agreeBox label{font:normal 15px/15px "NanumBarunGothicBold";color:#232323;}
+.agreeBox label span{color:#666;font-family:"NanumBarunGothic";}
+.agreeBox.agreeAll{padding:20px 30px;margin:30px 0 0 0;border:1px solid #c6c6c6;border-width:1px 1px 0 1px;}
+.agreeBox.agreeMail{clear:both;padding:20px 30px;margin:0 0 30px;border:1px solid #c6c6c6;border-top:none;}
+
+/* essential */
+.join_table tbody td.essential{text-align:left;padding-left:22px;margin-top:20px;}
+.join_table tbody td.essential input{width:auto;padding:0;margin:0 8px 0 -22px;}
+.join_table tbody td.essential label{font-size:16px;color:#232323;font-weight:normal;line-height:180%;}
+.join_table tbody td.essential label em{color:#ff6610;}
+
+/* itemTd */
+.join_table .itemTd{padding:0;}
+.join_table .itemTd .item .i_dot{margin:20px 0;}
+
+/* qnaAreaOrigin */
+.qnaAreaOrigin{position:relative;border:1px solid #e3e3e3;border-width:1px 0;margin:0 0 40px;}
+.qnaAreaOrigin .qnaTab{z-index:2;position:relative;height:39px;border:1px solid #e3e3e3;}
+.qnaAreaOrigin .qnaTab ul{display:block;height:100%}
+.qnaAreaOrigin .qnaTab ul:after{content:'';display:block;clear:both;}
+.qnaAreaOrigin .qnaTab li{float:left;display:inline-block;width:33.3%;height:100%;text-align:center;}
+.qnaAreaOrigin .qnaTab li a{display:inline-block;height:100%;line-height:39px;padding:0 10px;}
+.qnaAreaOrigin .qnaTab li a.on{height:38px;border-bottom:2px solid #f37720;}
+.qnaAreaOrigin .qnaList{z-index:1;position:relative;border:1px solid #e3e3e3;border-width:0 1px;}
+.qnaAreaOrigin .qnaList li{display:block;margin-top:-1px;}
+.qnaAreaOrigin .qnaList li:first-child{margin:0;}
+.qnaAreaOrigin .qnaList li a{position:relative;display:block;padding:13px 30px;border-top:1px solid #ececec;}
+.qnaAreaOrigin .qnaList li:first-child a{border-top:none;}
+.qnaAreaOrigin .qnaList li a:hover{text-decoration:underline;background:#f6f6f6;}
+.qnaAreaOrigin .qnaList li a img{position:relative;top:-2px;display:inline-block;vertical-align:middle;margin-right:5px;}
+.qnaAreaOrigin .qnaList li a .ico{position:absolute;top:50%;right:30px;display:block;width:10px;height:6px;margin:-3px 0 0 0;background:url('//img.tourtips.com/images/pc/air/spr_ico_qnaArea.png') 0 0 no-repeat;}
+.qnaAreaOrigin .qnaList li.open a .ico{background-position:0 -41px;}
+.qnaAreaOrigin .qnaList .answerBox{display:none;text-indent:-23px;line-height:23px;text-align:justify;padding:13px 30px 13px 53px;background:#f6f6f6;border-top:1px solid #ececec;}
+.qnaAreaOrigin .qnaList .answerBox img{margin-right:4px;}
+.qnaAreaOrigin .qnaList.goLink{height:auto;margin-bottom:-1px;overflow:inherit;}
+.qnaAreaOrigin .qnaList.goLink li{float:none;width:100%;height:auto;margin:0;border:none;}
+.qnaAreaOrigin .qnaList.goLink li a{text-decoration:underline;}
+
+/* dimmedLayer */
+.dimmedLayer .layerWrap .imgArea{min-height:194px;text-align:center;margin:0 0 20px;overflow-x:hidden;overflow-y:auto;}
+.dimmedLayer .layerWrap .imgArea img{max-width:100%;}

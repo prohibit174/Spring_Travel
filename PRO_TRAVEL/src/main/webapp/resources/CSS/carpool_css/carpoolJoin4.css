@@ -1,0 +1,762 @@
+/*S:ë¡œê·¸ì¸*/
+.nlogin_total_box {
+	margin-top: 35px;
+
+	border: 1px solid #c6c6c6
+}
+
+.nlogin_total_box .login_wrong {
+	margin: 0;
+	padding-top: 30px;
+	width: 100%;
+	text-align: center
+}
+
+.nlogin_title {
+	margin: 0;
+	padding: 20px 30px;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 22px;
+	color: #232323
+}
+
+.nlogin_content {
+	position: relative;
+	margin: 0 30px;
+	padding: 30px 0
+}
+
+.nlogin_content input[type="text"], .nlogin_content input[type="password"]
+	{
+	margin: 0;
+	padding: 0 15px !important;
+	height: 42px !important;
+	line-height: 42px;
+	width: 309px;
+	background: #f9f9f9;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font-size: 15px
+}
+
+.nlogin_content input[type="text"]:focus, .nlogin_content input[type="password"]:focus
+	{
+	border: 1px solid #ff7b11;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+
+.nlogin_content input[type="password"] {
+	font-size: 21px
+}
+
+.nlogin_input_content {
+	padding-right: 22px;
+	display: inline-block;
+	border-right: 1px solid #e2e2e2;
+	min-height: 98px
+}
+
+.nlogin_form_section {
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin-bottom: 10px
+}
+
+.nlogin_form_section label {
+	font-size: 15px;
+	color: #999
+}
+
+.nlogin_form_text label {
+	position: absolute;
+	top: 15px;
+	left: 14px
+}
+
+.nlogin_form_check {
+	margin-bottom: 20px
+}
+
+.nlogin_form_check label {
+	font-size: 14px;
+	color: #232323
+}
+
+.nlogin_btn {
+	margin: 0;
+	padding: 12px 32px;
+	line-height: 18px;
+	background: #ff7f11;
+	border: 1px solid #e86e0f;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+.nlogin_link {
+	margin: 0 30px;
+	padding: 18px 0;
+	border-top: 1px solid #e2e2e2;
+	font-size: 0
+}
+
+.nlogin_link>li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 1px solid #e2e2e2
+}
+
+.nlogin_link>li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0
+}
+
+.nlogin_link>li>a {
+	font-size: 15px;
+	color: #232323
+}
+
+.nlogin_btn_list {
+	position: absolute;
+	right: 0;
+	top: 30px
+}
+
+.nlogin_btn_list>li {
+	margin-bottom: 10px
+}
+
+.nlogin_btn_list>li>button {
+	margin: 0;
+	width: 350px;
+	padding-left: 64px;
+	height: 44px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer
+}
+
+.nlogin_fb_btn {
+	border: 1px solid #354f85;
+	background: #3c5a98 url(//img.tourtips.com/images/join/ico_facebook.gif)
+		no-repeat left center
+}
+
+.nlogin_nv_btn {
+	border: 1px solid #1eb400;
+	background: #1ec800 url(//img.tourtips.com/images/join/ico_naver.gif)
+		no-repeat left center
+}
+
+.nlogin_email_btn {
+	margin: 0;
+	width: 350px;
+	padding-left: 64px;
+	height: 44px;
+	border: 1px solid #e86e0f;
+	background: #ff7f11 url(//img.tourtips.com/images/join/ico_email.gif)
+		no-repeat left center;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer
+}
+
+.nlogin_already_member {
+	margin-top: 15px;
+	color: #232323;
+	font-size: 14px
+}
+
+.nlogin_already_member a {
+	margin-left: 7px;
+	color: #0000cc;
+	text-decoration: underline
+}
+
+.nlogin_email_title {
+	padding-left: 77px;
+	background: url(//img.tourtips.com/images/join/ico_email_title.gif)
+		no-repeat 30px 50%
+}
+
+.nlogin_facebook_title {
+	padding-left: 77px;
+	background: url(//img.tourtips.com/images/join/ico_facebook_title.gif)
+		no-repeat 30px 50%
+}
+
+.nlogin_naver_title {
+	padding-left: 77px;
+	background: url(//img.tourtips.com/images/join/ico_naver_title.gif)
+		no-repeat 30px 50%
+}
+
+.nlogin_select {
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle
+}
+
+.nlogin_select>p {
+	width: 100%;
+	border: 1px solid #d0d0d0;
+	background: #fff url(//img.tourtips.com/images/join/bg_selectbox.gif)
+		no-repeat right center;
+	font-size: 14px;
+	color: #232323;
+	cursor: pointer
+}
+
+.nlogin_select>p>span {
+	display: block;
+	padding: 13px;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.nlogin_select>ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+	border-top: 0;
+	z-index: 10;
+	max-height: 200px;
+	overflow-y: auto
+}
+
+.nlogin_select>ul>li>a {
+	display: block;
+	padding-left: 15px;
+	line-height: 31px;
+	font-size: 15px;
+	color: #232323;
+}
+
+.nlogin_select>ul>li>a:hover {
+	background-color: #eee
+}
+
+.email_alpha {
+	margin: 0 7px;
+	font-size: 18px;
+	color: #232323
+}
+
+.email_member_join {
+	margin-bottom: -30px
+}
+
+.email_member_join input[type="text"] {
+	width: 136px
+}
+
+.email_member_join .nlogin_select {
+	width: 202px
+}
+
+.email_member_join #join_pw {
+	width: 148px
+}
+
+.email_member_join #join_rpw {
+	margin-left: 10px;
+	width: 180px
+}
+
+.email_member_join #join_name {
+	width: 370px
+}
+
+.email_member_join .join_rpw_label {
+	margin-left: 10px
+}
+
+.nlogin_table {
+	width: 100%;
+	margin-top: -10px;
+	border-collapse: ellipsis
+}
+
+.nlogin_table td {
+	padding-top: 10px;
+	border-bottom: 1px solid #d0d0d0;
+	font-size: 0
+}
+
+.nlogin_table td .mail_trans_check {
+	font-size: 15px;
+	color: #232323
+}
+
+.nlogin_table td .mail_trans_check_label {
+	font-size: 15px;
+	color: #666;
+	font-weight: normal;
+	vertical-align: middle
+}
+
+.nlogin_table td.last {
+	padding: 24px 0;
+	border-bottom: 0
+}
+
+.nlogin_table td span {
+	vertical-align: middle
+}
+
+.nlogin_pass_info {
+	margin-left: 20px;
+	font-size: 13px;
+	color: #666
+}
+
+.nlogin_date_info {
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #fc6631
+}
+
+#nlogin_year {
+	width: 180px
+}
+
+#nlogin_month {
+	margin-left: 10px;
+	width: 100px
+}
+
+#nlogin_day {
+	margin-left: 10px;
+	width: 100px
+}
+
+#nlogin_gender {
+	margin-left: 20px;
+	width: 130px
+}
+
+.nlogin_policy_wrap {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin-top: 30px;
+	width: 383px
+}
+
+.nlogin_policy_wrap.last {
+	margin-left: 29px
+}
+
+.nlogin_policy {
+	height: 126px;
+	border: 1px solid #c6c6c6
+}
+
+.nlogin_policy_check {
+	padding: 15px 20px;
+	border: 1px solid #c6c6c6;
+	border-bottom: 0
+}
+
+.nlogin_policy_check label {
+	font-size: 15px;
+	color: #232323;
+	vertical-align: middle;
+	font-weight: normal;
+	font-family: "NanumBarunGothicBold";
+}
+
+.nlogin_policy_check label em {
+	color: #ff4f02;
+	font-family: "NanumBarunGothic";
+}
+
+.nlogin_join_center {
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.sns_profile_img {
+	position: absolute;
+	top: 30px;
+	left: 0
+}
+
+.sns_profile_wrap {
+	padding: 17px 0 27px 0;
+}
+
+.sns_private_connect {
+	margin-left: 95px
+}
+
+.sns_private_connect dt {
+	margin-bottom: 5px;
+	font-size: 18px;
+	color: #232323
+}
+
+.sns_private_connect dd {
+	line-height: 20px;
+	font-size: 14px;
+	color: #777
+}
+
+.nlogin_certifi_info_wrap {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e2e2e2
+}
+
+.nlogin_certifi_info {
+	line-height: 33px;
+	font-size: 22px;
+	color: #232323;
+	font-weight: bold;
+	text-align: center
+}
+
+.nlogin_certifi_info strong {
+	color: #fc6631
+}
+
+.nlogin_certi_sub_info_wrap {
+	padding-top: 25px
+}
+
+.nlogin_certi_sub_info {
+	line-height: 24px;
+	font-size: 14px;
+	color: #232323;
+	text-align: center
+}
+
+.nlogin_certi_sub_info strong {
+	color: #fc6631
+}
+
+.nlogin_gray_back {
+	padding: 30px;
+	background-color: #f4f4f4
+}
+
+.nlogin_notemail_title {
+	font-size: 14px;
+	color: #666
+}
+
+.nlogin_notemail_list {
+	margin-top: 10px
+}
+
+.nlogin_notemail_list li {
+	padding-left: 12px;
+	background: url(//img.tourtips.com/images/join/bg_notemail_list.png)
+		no-repeat 4px center;
+	line-height: 22px;
+	font-size: 13px;
+	color: #777;
+}
+
+.nlogin_notemail_list li a {
+	margin: 0 8px;
+	color: #0000cc;
+	text-decoration: underline
+}
+
+.nlogin_com_title {
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #232323
+}
+
+.nlogin_com_comment {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #232323;
+	text-align: center
+}
+
+.nlogin_com_login_info {
+	margin-top: 30px;
+	font-size: 14px;
+	color: #777;
+	text-align: center
+}
+/*E:ë¡œê·¸ì¸*/
+
+/* ë©”ì¼ë§ ê°œíŽ¸(2015.02.02) */
+/* refusal */
+.refusal {
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+.refusal em {
+	font-style: normal;
+}
+
+.refusal p {
+	display: block;
+	color: #777;
+	font-size: 13px;
+	letter-spacing: -1px;
+}
+
+.refusal .tit {
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+	margin: 0 0 20px;
+}
+
+.refusal .sTit {
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #000;
+	margin: 0 0 10px;
+}
+
+.refusal .txt {
+	font-size: 14px;
+	color: #000;
+	letter-spacing: -1px;
+	line-height: 160%;
+}
+
+.refusal .orange {
+	color: #ff6610;
+}
+
+.refusal .join_btn {
+	margin: 30px 0 0 10px;
+}
+
+.refusal .join_btn.confirm {
+	margin-left: 0;
+}
+
+/* warning */
+.warning {
+	width: 798px;
+	margin: 50px auto 0 auto;
+	border: 1px solid #ddd;
+}
+
+.warning ul {
+	display: block;
+	margin: 23px 26px;
+	*zoom: 1;
+}
+
+.warning ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.warning li {
+	display: block;
+	font-size: 13px;
+	color: #777;
+	padding: 0 0 0 12px;
+	margin: 0 0 7px;
+	background: url('//img.tourtips.com/images/mail/bu_warning.gif') 0 7px
+		no-repeat;
+}
+
+/* setAlarm */
+#setAlarm h3.title {
+	position: relative;
+	display: block;
+	line-height: 18px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #000;
+	padding: 0 0 10px;
+	margin: 30px 0 0 0;
+	border-bottom: 1px solid #373737;
+}
+
+#setAlarm h3.title span {
+	float: right;
+	color: #999;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#setAlarm .setWrap {
+	margin: 0 0 20px;
+}
+
+#setAlarm .setWrap .setBox {
+	position: relative;
+	padding: 27px 0;
+	background: url('//img.tourtips.com/images/join/dot_line.gif') 0 bottom
+		repeat-x;
+	*zoom: 1;
+}
+
+#setAlarm .setWrap .setBox:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#setAlarm .setWrap .setBox .subject {
+	float: left;
+	display: block;
+	width: 135px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	padding-left: 10px;
+	background: url('//img.tourtips.com/images/common/bullet_black.gif') 0
+		7px no-repeat;
+}
+
+#setAlarm .setWrap .setBox .desc {
+	float: left;
+	display: block;
+	width: 500px;
+	line-height: 160%;
+}
+
+#setAlarm .setWrap .setBox .desc em {
+	color: #ff6610;
+	font-style: normal;
+}
+
+#setAlarm .setWrap .setBox .toggleBtn {
+	position: absolute;
+	top: 23px;
+	right: 20px;
+	display: block;
+	width: 60px;
+	height: 29px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	background: #ddd;
+	border: none;
+}
+
+#setAlarm .setWrap .setBox .toggleBtn span {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	letter-spacing: 0;
+	line-height: 29px;
+}
+
+#setAlarm .setWrap .setBox .toggleBtn.on {
+	background: #ff6610;
+}
+
+#setAlarm .setWrap .setBox .moreSet {
+	clear: both;
+	display: block;
+	margin: 30px 0 0 145px;
+	*zoom: 1;
+}
+
+#setAlarm .setWrap .setBox .moreSet:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#setAlarm .setWrap .setBox .moreSet li {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 96px;
+	height: 23px;
+	vertical-align: middle;
+	margin: 20px 50px 0 0;
+}
+
+#setAlarm .setWrap .setBox .moreSet .country {
+	position: relative;
+	top: 3px;
+	color: #666;
+	vertical-align: middle;
+}
+
+#setAlarm .setWrap .setBox .moreSet .toggleBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 29px;
+	height: 21px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	border: 1px solid #ddd;
+}
+
+#setAlarm .setWrap .setBox .moreSet .toggleBtn span {
+	color: #ccc;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 19px;
+}
+
+#setAlarm .setWrap .setBox .moreSet .toggleBtn.on {
+	border: 1px solid #ff6610;
+}
+
+#setAlarm .setWrap .setBox .moreSet .toggleBtn.on span {
+	color: #ff6610;
+}
+
+#setAlarm .setWrap .setBox .moreSet .section1 {
+	width: 113px;
+}
+
+#setAlarm .setWrap .setBox .moreSet .section2 {
+	width: 130px;
+}
+
+#setAlarm .setWrap .setBox .moreSet .section3 {
+	width: 88px;
+}

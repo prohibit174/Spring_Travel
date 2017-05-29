@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="travel.accompany.mapper.TravelMapper">
+
+	<cache />
+	
+		<select id="getUserRoute" resultType="accompany" parameterType="Route">
+			select tp_num, c.cor_region, cor_longi, cor_lati, u_id, tp_date
+			from cordinates c, trip_plan t where c.cor_region = t.cor_region and t.u_id=#{u_id}
+		</select>
+		<select id="getUserInfo" resultType="accompany" parameterType="String">
+			select tp_num, c.cor_region, cor_longi, cor_lati, u.u_id, tp_date, u_birth,u_sex,u_lang,u_religion,u_job
+    	from cordinates c, trip_plan t, users u where c.cor_region = t.cor_region and t.u_id= u.u_id and t.u_id=#{u_id}
+		</select>
+			<select id="getAccompanies" resultType="accompany" parameterType="accompany">
+			select * from users u, trip_plan t, cordinates c
+			where u.u_id!=#{u_id} and u.u_id = t.u_id and c.COR_REGION=t.COR_REGION
+			 and TO_CHAR(t.tp_date,'YYYY/MM/DD')=SUBSTR(#{tp_date},0,4)||'/'||SUBSTR(#{tp_date},6,2)||'/'||SUBSTR(#{tp_date},9,2)
+			and c.cor_lati=(select cor_lati from cordinates c where cor_region=#{cor_region})
+			and c.cor_longi=(select cor_longi from cordinates c where cor_region=#{cor_region})
+			<!-- order by 
+			case 
+				when u.ts_id='0' then 1 
+			when ABS(to_number(SUBSTR(u.u_birth,0,4))-to_number(SUBSTR(#{u_birth},0,4))) &lt;  5 then 2 
+			when u.u_sex=#{u_sex} then 3
+			when u.u_lang=#{u_lang} then 4  
+			when u.u_religion=#{u_religion} then 5
+			when u.u_job=#{u_job} then 1 
+			end    -->
+			</select>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
