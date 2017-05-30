@@ -120,6 +120,7 @@
 
 </head>
 <body>
+<div id="header">
 	<header id="header">
 	<div class="holder">
 		<div class="section">
@@ -1057,5 +1058,6 @@
 		</nav>
 	</div>
 	</header>
+	</div>
 </body>
 </html>
