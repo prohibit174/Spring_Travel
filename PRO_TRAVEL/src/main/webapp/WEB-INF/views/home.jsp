@@ -8,20 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <!-- 헤더영역 -->
-   <tiles:insertAttribute name="header"/>
-   <hr>
-   
-   <!-- 사이드바영역 -->
-   <tiles:insertAttribute name="sidebar"/>
-   <hr>
-   
-   <!-- 바디영역 -->
-   <!--<tiles:insertAttribute name="body"/>
-   <hr>-->
-   
-   <!-- 푸터영역 -->
-   <tiles:insertAttribute name="footer"/>
+왜안댐
 </body>
 </html>
 
