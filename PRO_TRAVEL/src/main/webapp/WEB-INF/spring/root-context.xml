@@ -31,8 +31,8 @@
       <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
    </bean>
    
-   <context:component-scan base-package="kosta.travel.persistence" />
-    <context:component-scan base-package="kosta.travel.service" />
+   <!-- <context:component-scan base-package="kosta.travel.persistence" />
+    <context:component-scan base-package="kosta.travel.service" /> -->
     
     <!-- 트랜젝션 처리 -->
    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
