@@ -10,7 +10,16 @@
       <put-attribute name="sidebar" value="/WEB-INF/views/include/sidebar.jsp"/>
    </definition>
    
+   <definition name="base_layout2" template="/WEB-INF/views/template2.jsp">
+      <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
+      <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
+   </definition>
+   
    <definition name="home" extends="base_layout">
    	<put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+   </definition>
+   
+   <definition name="login_form" extends="base_layout2">
+   	<put-attribute name="body" value="/WEB-INF/views/login_form.jsp"/>
    </definition>
 </tiles-definitions>

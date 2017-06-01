@@ -67,9 +67,10 @@
 	href="https://stillres.olympic.org/css/modules.css" />
 <link media="all" rel="stylesheet" type="text/css"
 	href="https://stillres.olympic.org/css/all.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/button.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/login.js"></script>
 
-<script type="text/javascript"
-	src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write('<script src="https://stillres.olympic.org/js/jquery-1.11.1.min.js"><\/script>')</script>
 <script type="text/javascript"
 	src="https://stillres.olympic.org/js/jquery.main.js"></script>
@@ -87,6 +88,7 @@
 	src="https://stillres.olympic.org/js/ss-social.js"></script>
 <script type="text/javascript"
 	src="https://stillres.olympic.org/js/ss-standard.js"></script>
+	
 <!--[if IE]><script type="text/javascript" src="https://stillres.olympic.org/js/ie.js"></script><![endif]-->
 <noscript>
 	<div>Javascript must be enabled for the correct page display</div>
@@ -1035,7 +1037,10 @@
 
 				<div class="add-top-section">
 					<div class="hold lang-switcher-container">
+						
 						<ul class="social-links">
+							<li class="button_base b01_simple_rollover"><a href="#" id="login-button">LOGIN</a></li>
+							<li class="button_base b01_simple_rollover"><a href="#">SIGN UP</a></li>
 							<li><a href="https://twitter.com/olympics" class="ss-icon">twitter</a></li>
 							<li><a href="https://www.youtube.com/user/olympic"
 								class="ss-icon">youtube</a></li>
