@@ -59,7 +59,7 @@
    
    <!-- product -->
    <definition name="product" extends="product_layout">
-   	<put-attribute name="body" value="/WEB-INF/views/register.jsp"/>
+   	<put-attribute name="body" value="/WEB-INF/views/product/register.jsp"/>
    </definition>
    
    <!-- carpool -->
