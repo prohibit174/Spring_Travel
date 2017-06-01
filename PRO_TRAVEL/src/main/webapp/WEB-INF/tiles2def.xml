@@ -4,22 +4,69 @@
    "http://tiles.apache.org/dtds/tiles-config_2_0.dtd"
 >
 <tiles-definitions>
-   <definition name="base_layout" template="/WEB-INF/views/template.jsp">
+   <!-- ========== definition part ========== -->
+	<!-- main -->
+   <definition name="main_layout" template="/WEB-INF/views/include/main_template.jsp">
       <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
       <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
-      <put-attribute name="sidebar" value="/WEB-INF/views/include/sidebar.jsp"/>
+      <put-attribute name="sidebar" value="/WEB-INF/views/include/main_sidebar.jsp"/>
    </definition>
    
-   <definition name="base_layout2" template="/WEB-INF/views/template2.jsp">
+   <!-- product -->
+   <definition name="product_layout" template="/WEB-INF/views/include/product_template.jsp">
+      <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
+      <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
+      <put-attribute name="product_sidebar" value="/WEB-INF/views/include/product_sidebar.jsp"/>
+   </definition>
+
+	<!-- carpool -->
+   <definition name="carpool_layout" template="/WEB-INF/views/include/carpool_template.jsp">
+      <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
+      <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
+      <put-attribute name="carpool_sidebar" value="/WEB-INF/views/include/carpool_sidebar.jsp"/>
+   </definition> 
+   
+   <!-- my page -->
+   <definition name="mypage_layout" template="/WEB-INF/views/include/mypage_template.jsp">
+      <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
+      <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
+      <put-attribute name="mypage_sidebar" value="/WEB-INF/views/include/mypage_sidebar.jsp"/>
+   </definition>
+        
+   <!-- login -->
+   <definition name="login_layout" template="/WEB-INF/views/include/login_template.jsp">
       <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
       <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
    </definition>
-   
-   <definition name="home" extends="base_layout">
+
+	<!-- accompany -->
+   <definition name="accompany_layout" template="/WEB-INF/views/include/accompany_template.jsp">
+      <put-attribute name="header" value="/WEB-INF/views/include/header.jsp"/>
+      <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp"/>
+      <put-attribute name="accompany_sidebar" value="/WEB-INF/views/include/accompany_sidebar.jsp"/>
+   </definition>
+      
+   <!-- ========== extends part ========== -->
+   <!-- main -->
+   <definition name="home" extends="main_layout">
    	<put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
    </definition>
    
-   <definition name="login_form" extends="base_layout2">
+   <!-- login -->
+   <definition name="login_form" extends="login_layout">
    	<put-attribute name="body" value="/WEB-INF/views/login_form.jsp"/>
    </definition>
+   
+   <!-- product -->
+   <definition name="product" extends="product_layout">
+   	<put-attribute name="body" value="/WEB-INF/views/product/register.jsp"/>
+   </definition>
+   
+   <!-- carpool -->
+  <definition name="carpool" extends="carpool_layout">
+   	<put-attribute name="body" value="/WEB-INF/views/carpool/carpool_list.jsp"/>
+   	<put-attribute name="body" value="/WEB-INF/views/carpool/carpool_main.jsp"/>
+   	<put-attribute name="body" value="/WEB-INF/views/carpool/carpool_insertform.jsp"/>
+   </definition>   
+   
 </tiles-definitions>
